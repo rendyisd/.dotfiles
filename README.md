@@ -20,3 +20,4 @@ Arch Linux with Hyprland tiling window manager.
 ## Credits
 - <3 to all creators and contributors of these projects.
 - Waybar config taken from Andrey0189/hyprland-rice
+- Wofi config taken from joao-vitor-sr - solarized theme
