@@ -54,6 +54,7 @@ window#waybar.hidden {
 #language {
     padding-left: 16px;
     padding-right: 16px;
+    margin-right: 8px;
     border-radius: 7px;
     transition: none;
     color: #ffffff;
