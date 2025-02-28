@@ -8,6 +8,7 @@ Arch Linux with Hyprland tiling window manager.
     - Hack Nerd Font Mono
     - otf-font-awesome
     - noto-fonts-cjk
+    - FiraCode Nerd Font
 - Packages:
     - wl-clipboard
     - bluez and bluez-util
@@ -19,5 +20,6 @@ Arch Linux with Hyprland tiling window manager.
 
 ## Credits
 - <3 to all creators and contributors of these projects.
-- Waybar config taken from Andrey0189/hyprland-rice
-- Wofi config taken from joao-vitor-sr - solarized theme
+- **dunstrc**, **hyprlock** config by **ml4w**.
+- Waybar config by **Andrey0189**/hyprland-rice.
+- Wofi config by **joao-vitor-sr** - solarized theme.

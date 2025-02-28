@@ -1,10 +1,10 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "margin": "9 13 -10 18",
+    "margin": "5 5 0 5",
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "hyprland/language", "keyboard-state", "hyprland/submap"],
-    "modules-center": ["clock", "custom/weather"],
+    "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "custom/mem", "cpu", "backlight", "battery", "tray"],
 
 
@@ -18,47 +18,20 @@
 
     "hyprland/language": {
         "format-en": "US",
-        "format-ru": "RU",
-	"min-length": 5,
+        "format-jp": "JP",
+	"min-length": 3,
 	"tooltip": false
     },
 
-    "keyboard-state": {
-        //"numlock": true,
-        "capslock": true,
-        "format": "{icon} ",
-        "format-icons": {
-            "locked": " ",
-            "unlocked": ""
-        },
-    },
-
-    "custom/pacman": {
-        "format": "{} ",
-        "interval": 3600,                     			// every hour
-        "exec": "(checkupdates;pacman -Qm | aur vercmp) | wc -l",	// # of updates
-        "exec-if": "exit 0",                  			// always run; consider advanced run conditions
-        "on-click": "foot sh -c 'yay; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar", // update system
-        "signal": 8,
-        "tooltip": false,
-    },
 
     "hyprland/submap": {
-        "format": "pon {}"
+        "format": "submap {}"
     },
 
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format": "{:%a, %d %b, %I:%M %p}"
-    },
-
-    "custom/weather": {
-        "format": "{}",
-        "tooltip": true,
-        "interval": 1800,
-        "exec": "$HOME/.config/waybar/scripts/wttr.py",
-        "return-type": "json"
     },
 
     "pulseaudio": {
@@ -119,7 +92,6 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", "", ""],
