@@ -20,6 +20,6 @@ Arch Linux with Hyprland tiling window manager.
 
 ## Credits
 - <3 to all creators and contributors of these projects.
-- **dunstrc**, **hyprlock** config by **ml4w**.
-- Waybar config by **Andrey0189**/hyprland-rice.
-- Wofi config by **joao-vitor-sr** - solarized theme.
+- Dunst and Hyprlock config by **ml4w**.
+- Waybar config by **Andrey0189**.
+- Wofi config by **joao-vitor-sr**.
