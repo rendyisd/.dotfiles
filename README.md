@@ -10,6 +10,8 @@ Arch Linux with Hyprland tiling window manager.
     - noto-fonts-cjk
     - FiraCode Nerd Font
 - Packages:
+    - xdg-desktop-portal-gtk
+    - xdg-desktop-portal-hyprland
     - wl-clipboard
     - bluez and bluez-util
     - brightnessctl
