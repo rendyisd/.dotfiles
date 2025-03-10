@@ -19,7 +19,8 @@ window#waybar.hidden {
     margin-right: 8px;
     border-radius: 7px;
     transition: none;
-    background: #383c4a;
+    /*background: #383c4a; */
+    background: #000000;
 }
 
 #workspaces button {
@@ -41,12 +42,12 @@ window#waybar.hidden {
     box-shadow: inherit;
     text-shadow: inherit;
     border-radius: inherit;
-    color: #383c4a;
-    background: #7c818c;
+    color: #ffffff;
+    background: #232b2b;
 }
 
 #workspaces button.active {
-    background: #4e5263;
+    background: #3b444b;
     color: white;
     border-radius: inherit;
 }
@@ -58,7 +59,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
 }
 
 #submap {
@@ -67,7 +68,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
 }
 
 #clock {
@@ -76,7 +77,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
 }
 
 #pulseaudio {
@@ -86,7 +87,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
     transition: ease 500ms;
 }
 
@@ -103,7 +104,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
 }
 
 #cpu {
@@ -113,7 +114,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
 }
 
 #temperature {
@@ -123,7 +124,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
     transition: ease 500ms;
 }
 
@@ -139,7 +140,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
 }
 
 #battery {
@@ -149,7 +150,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
     transition: ease 500ms;
 }
 
@@ -181,7 +182,7 @@ window#waybar.hidden {
     border-radius: 7px;
     transition: none;
     color: #ffffff;
-    background: #383c4a;
+    background: #000000;
 }
 
 @keyframes blink {
