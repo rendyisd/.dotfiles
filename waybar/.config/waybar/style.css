@@ -72,8 +72,8 @@ window#waybar.hidden {
 }
 
 #clock {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 7px;
     transition: none;
     color: #ffffff;
