@@ -80,6 +80,7 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol",
+        //"on-update": "$HOME/.config/waybar/scripts/test.sh", // buggy?
         "min-length": 13,
     },
 
