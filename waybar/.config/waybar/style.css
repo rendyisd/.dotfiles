@@ -17,7 +17,7 @@ window#waybar.hidden {
 
 #workspaces {
     margin-right: 8px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     /*background: #383c4a; */
     background: #000000;
@@ -56,7 +56,7 @@ window#waybar.hidden {
     padding-left: 16px;
     padding-right: 16px;
     margin-right: 8px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;
@@ -72,9 +72,9 @@ window#waybar.hidden {
 }
 
 #clock {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;
@@ -84,7 +84,7 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;
@@ -101,7 +101,7 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;
@@ -111,7 +111,7 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;
@@ -121,7 +121,7 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;
@@ -137,7 +137,7 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;
@@ -147,7 +147,7 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;
@@ -179,7 +179,7 @@ window#waybar.hidden {
 #tray {
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 7px;
+    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #000000;

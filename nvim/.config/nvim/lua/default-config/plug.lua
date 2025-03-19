@@ -19,7 +19,11 @@ Plug('hrsh7th/nvim-cmp')
 Plug('hrsh7th/cmp-nvim-lsp')
 
 Plug('nvim-tree/nvim-tree.lua')
+
+Plug('nvim-lualine/lualine.nvim')
+
 Plug('nvim-tree/nvim-web-devicons')
+
 
 Plug('windwp/nvim-autopairs')
 
