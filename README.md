@@ -7,8 +7,7 @@ Arch Linux with Hyprland tiling window manager.
 - Fonts:
     - Hack Nerd Font Mono
     - otf-font-awesome
-    - noto-fonts-cjk
-    - noto-fonts-emoji
+    - noto-fonts and noto-fonts-*
     - FiraCode Nerd Font
 - Packages:
     - xdg-desktop-portal-gtk
