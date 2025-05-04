@@ -3,7 +3,8 @@ Arch Linux with Hyprland tiling window manager.
 
 ## Manual Install
 > **_NOTE_**: This list MIGHT not be complete.\
-> **_TODO_**: Make the install bash scripts for these (if I have the time).
+> **_TODO_**: Make the install bash scripts for these (if I have the time, which
+unfortunately I don't).
 - Fonts:
     - Hack Nerd Font Mono
     - otf-font-awesome
@@ -19,6 +20,7 @@ Arch Linux with Hyprland tiling window manager.
     - ripgrep
     - VIM plug
     - waybar
+    - Tmux and Oh my tmux!
 
 ## Credits
 - <3 to all creators and contributors of these projects.
