@@ -3,7 +3,7 @@ local Plug = vim.fn['plug#']
 
 vim.call('plug#begin')
 
-Plug('nvim-lua/plenary.nvim') --Telescope dependency
+Plug('nvim-lua/plenary.nvim') --Telescope dep
 Plug('nvim-telescope/telescope.nvim', { ['tag'] = '0.1.8' })
 
 Plug('navarasu/onedark.nvim')
@@ -24,6 +24,8 @@ Plug('nvim-lualine/lualine.nvim')
 
 Plug('nvim-tree/nvim-web-devicons')
 
+Plug('echasnovski/mini.nvim') -- render-markdown dep
+Plug('MeanderingProgrammer/render-markdown.nvim')
 
 Plug('windwp/nvim-autopairs')
 

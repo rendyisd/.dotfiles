@@ -2,7 +2,7 @@
 Arch Linux with Hyprland tiling window manager.
 
 ## Manual Install
-> **_NOTE_**: This list MIGHT not be complete.\
+> **_NOTE_**: This list MIGHT be incomplete.\
 > **_TODO_**: Make the install bash scripts for these (if I have the time, which
 unfortunately I don't).
 - Fonts:
