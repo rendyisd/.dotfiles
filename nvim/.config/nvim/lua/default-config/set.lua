@@ -33,3 +33,5 @@ vim.opt.shiftwidth = 4
 vim.opt.updatetime = 50
 
 vim.lsp.set_log_level("off")
+
+vim.api.nvim_command('filetype plugin indent on')

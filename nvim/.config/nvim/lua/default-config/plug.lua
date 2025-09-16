@@ -29,4 +29,6 @@ Plug('MeanderingProgrammer/render-markdown.nvim')
 
 Plug('windwp/nvim-autopairs')
 
+Plug('lervag/vimtex')
+
 vim.call('plug#end')

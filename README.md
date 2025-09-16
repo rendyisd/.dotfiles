@@ -23,5 +23,5 @@ unfortunately I don't).
     - Tmux and Oh my tmux!
 
 ## Credits
-- <3 to all creators and contributors of these projects.
+- All creators and contributors of these projects.
 - Dunst and Hyprlock config by **ml4w**.

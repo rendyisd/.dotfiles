@@ -3,7 +3,7 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     "margin": "5 5 0 5",
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "hyprland/language", "hyprland/submap"],
+    "modules-left": ["hyprland/workspaces", "hyprland/language", "hyprland/submap", "custom/timer"],
     "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "custom/mem", "cpu", "network", "battery", "tray"],
 
@@ -23,17 +23,16 @@
 	"tooltip": false
     },
 
-
     "hyprland/submap": {
         "format": "[SM] {}"
     },
 
-    // "clock": {
-    //     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    //     "format": "{:%a, %d %b, %I:%M %p}"
-    //     //"format": " {:%a %d %b  %I:%M %p}"
-    //     //"format": " {:%I:%M %p}"
-    // },
+    //"custom/timer": {
+    //    "exec": "$HOME/dev/c/waybar-timer/build/waybar-timer",
+    //    "return-type": "json",
+    //    "format": "> {text}"
+    //},
+
     "clock": {
         "format": " {:%I:%M %p}",
         "format-alt": " {:%a, %b %d, %Y (%I:%M %p)}",
@@ -80,7 +79,6 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol",
-        //"on-update": "$HOME/.config/waybar/scripts/test.sh", // buggy?
         "min-length": 13,
     },
 
