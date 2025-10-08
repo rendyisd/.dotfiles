@@ -24,9 +24,6 @@ Plug('nvim-lualine/lualine.nvim')
 
 Plug('nvim-tree/nvim-web-devicons')
 
-Plug('echasnovski/mini.nvim') -- render-markdown dep
-Plug('MeanderingProgrammer/render-markdown.nvim')
-
 Plug('windwp/nvim-autopairs')
 
 Plug('lervag/vimtex')

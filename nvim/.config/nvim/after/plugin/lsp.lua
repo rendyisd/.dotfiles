@@ -63,7 +63,7 @@ require('mason-lspconfig').setup({
     }
 })
 
-require('lspconfig')['lua_ls'].setup {
+vim.lsp.config('lua_ls', {
     on_init = function(client)
         if client.workspace_folders then
             local path = client.workspace_folders[1].name
@@ -93,37 +93,4 @@ require('lspconfig')['lua_ls'].setup {
             }
         }
     }
-}
-vim.lsp.config("lua_ls", {
-    settings = {
-        Lua = {
-            diagnostics = {
-                globals = { "vim" }}}}})
-
---require('lspconfig')['bashls'].setup({
---    cmd = {'bash-language-server', 'start'},
---    filetypes = {'bash', 'sh'},
---    root_dir = function(fname)
---        return vim.fs.dirname(vim.fs.find('.git', {path = fname, upward = true})[1])
---    end,
---    settings = {
---        bashide = {
---            globPattern = vim.env.GLOB_PATTERN or "*@(.sh|.inc|.bash|.command)"
---        }
---    },
---    single_file_support = true
---})
-
-local cmp = require('cmp')
-
-cmp.setup({
-    sources = {
-        {name = 'nvim_lsp'},
-    },
-    snippet = {
-        expand = function(args)
-            vim.snippet.expand(args.body)
-        end,
-    },
-    mapping = cmp.mapping.preset.insert({}),
 })
