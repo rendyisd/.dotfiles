@@ -13,4 +13,11 @@ require('tokyonight').setup({
     }
 })
 
+function LineNumberColors()
+    vim.api.nvim_set_hl(0, 'LineNrAbove', { fg='#51B3EC' })
+    vim.api.nvim_set_hl(0, 'LineNr', { fg='white' })
+    vim.api.nvim_set_hl(0, 'LineNrBelow', { fg='#FB508F' })
+end
+
 require('tokyonight').load()
+LineNumberColors()
