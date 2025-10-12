@@ -7,6 +7,7 @@ Plug('nvim-lua/plenary.nvim') --Telescope dep
 Plug('nvim-telescope/telescope.nvim', { ['tag'] = '0.1.8' })
 
 Plug('navarasu/onedark.nvim')
+Plug('folke/tokyonight.nvim')
 
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
 
