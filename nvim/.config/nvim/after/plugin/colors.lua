@@ -10,7 +10,10 @@ require('tokyonight').setup({
     styles = {
         sidebars = 'transparent',
         floats = 'transparent'
-    }
+    },
+--     on_colors = function (colors)
+--         colors.comment = '#6b76af'
+--     end
 })
 
 function LineNumberColors()
