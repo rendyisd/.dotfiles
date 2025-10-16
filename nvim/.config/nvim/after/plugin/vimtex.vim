@@ -18,6 +18,20 @@ let g:vimtex_view_method = 'general'
 " supported backends and further explanation is provided in the documentation,
 " see ":help vimtex-compiler".
 let g:vimtex_compiler_method = 'latexmk'
+let g:vimtex_compiler_latexmk = {
+        \ 'aux_dir' : '',
+        \ 'out_dir' : '',
+        \ 'callback' : 1,
+        \ 'continuous' : 1,
+        \ 'executable' : 'latexmk',
+        \ 'hooks' : [],
+        \ 'options' : [
+        \   '-verbose',
+        \   '-file-line-error',
+        \   '-synctex=1',
+        \   '-interaction=nonstopmode',
+        \ ],
+        \}
 
 " Most VimTeX mappings rely on localleader and this can be changed with the
 " following line. The default is usually fine and is the symbol "\".
