@@ -28,3 +28,6 @@ cddf() {
 PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
+
+# Cross compiler for OS dev
+export PATH="/opt/cross/bin:$PATH"
