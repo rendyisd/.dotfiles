@@ -29,5 +29,9 @@ PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
 
-# Cross compiler for OS dev
-export PATH="/opt/cross/bin:$PATH"
+# Rust Cargo
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Cross compilers for OS dev
+export PATH="$HOME/opt/cross/i686-elf/bin:$PATH"
+export PATH="$HOME/opt/cross/x86_64-elf/bin:$PATH"
