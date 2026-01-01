@@ -166,7 +166,7 @@ window#waybar.hidden {
     transition: ease 500ms;
 }
 
-#battery.plugged {
+#battery.charging {
     color: #ffffff;
     background-color: #26A65B;
     transition: ease 500ms;
