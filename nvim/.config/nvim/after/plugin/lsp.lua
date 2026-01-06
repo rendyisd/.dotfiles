@@ -34,6 +34,9 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end,
 })
 
+-- Force Ctrl-] to use the built-in tag command instead of tagfunc
+vim.keymap.set('n', '<C-]>', ':tag <C-r><C-w><CR>', { noremap = true, silent = true })
+
 vim.api.nvim_create_autocmd("CursorHold", {
     buffer = bufnr,
     callback = function()
@@ -94,6 +97,13 @@ vim.lsp.config('lua_ls', {
         }
     }
 })
+
+-- vim.lsp.config('clangd', {
+--     cmd = {
+--         "clangd",
+--         "--background-index=false",
+--     },
+-- })
 
 local cmp = require('cmp')
 
